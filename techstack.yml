@@ -1,0 +1,154 @@
+repo_name: csoto09/PPaaS
+report_id: 88e5933930d38b4f8d5d0ee535dd5a8a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-06T20:02:15+00:00'
+requested_by: francoislg
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/csoto09/PPaaS
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francois Lachance-Guillemette
+  last_updated_on: 2016-12-10 17:09:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/csoto09/PPaaS
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Francois Lachance-Guillemette
+  last_updated_on: 2016-12-10 17:09:19.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/vercel.json
+  detection_source: vercel.json
+  last_updated_by: francoislg
+  last_updated_on: 2022-11-22 20:47:02.000000000 Z
+- name: canvas
+  description: Canvas graphics API backed by Cairo
+  package_url: https://www.npmjs.com/canvas
+  version: 2.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16664/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: francoislg
+  last_updated_on: 2022-11-22 22:16:20.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francois Lachance-Guillemette
+  last_updated_on: 2016-12-10 17:09:19.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: left-pad
+  description: String left pad
+  package_url: https://www.npmjs.com/left-pad
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17613/default_017d0f32a16a0d4571816fcd8b944e817a961fb6.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francois Lachance-Guillemette
+  last_updated_on: 2016-12-10 17:09:19.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: François Lachance-Guillemette
+  last_updated_on: 2021-03-10 13:39:33.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/csoto09/PPaaS/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: François Lachance-Guillemette
+  last_updated_on: 2021-03-10 13:39:33.000000000 Z
